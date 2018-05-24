@@ -10,7 +10,7 @@ class Artist
   @@artists = []
 
   def initialize
-    self.class.all << self #this code is responsible for telling a class to keep track of its own instances. 
+    self.class.all << self #this code is responsible for telling a class to keep track of its own instances.
     @songs = []
   end
 
