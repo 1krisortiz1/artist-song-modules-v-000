@@ -11,7 +11,7 @@ class Song
   @@songs = []
 
   def initialize
-    self.class.all << self
+    self.class.all << self #this code is responsible for telling a class to keep track of its own instances.
   end
 
   def self.find_by_name(name)
